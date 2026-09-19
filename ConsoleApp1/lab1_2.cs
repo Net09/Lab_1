@@ -15,19 +15,19 @@
 
 
 
-using System.Runtime.Intrinsics.X86;
+//using System.Runtime.Intrinsics.X86;
 
-try
-{
-    Console.Write("Введите первую переменную");
-    double L = double.Parse(Console.ReadLine());
-    Console.Write("Введитt вторую переменную");
-    double I = double.Parse(Console.ReadLine());
-   double W = (0.5*L)*Math.Pow(I,2);
-    Console.WriteLine($"Среднее арифметическое:{W:F2}");
+//try
+//{
+//    Console.Write("Введите первую переменную");
+//    double L = double.Parse(Console.ReadLine());
+//    Console.Write("Введитt вторую переменную");
+//    double I = double.Parse(Console.ReadLine());
+//   double W = (0.5*L)*Math.Pow(I,2);
+//    Console.WriteLine($"Среднее арифметическое:{W:F2}");
 
-}
-catch(Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//}
+//catch(Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
